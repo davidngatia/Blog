@@ -17,6 +17,8 @@ David Ngatia
 ##Project setup instructions
     You can install this app by cloning the repository:git clone git@github.com:davidngatia/pitch.git 
     cd blog/ atom . for those using atom or code . for those using visual studio.
+    Live link
+    You can find the live site here : https://git.heroku.com/carslounge.git
 
 ##Known Bugs
     There are no known bugs so far,everything is working.
