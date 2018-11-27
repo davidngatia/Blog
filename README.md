@@ -50,11 +50,6 @@ If any issues,questions,ideas and concerns are encountered,feel free to contact 
 2. [Postgres](https://www.postgresql.org/download/)
 3. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 4. [Pip](https://pip.pypa.io/en/stable/installing/)
-5. 
-
-#### Technologies used
-    
-
 
 #### Clone the Repo and checkout into the project folder.
 ```bash
