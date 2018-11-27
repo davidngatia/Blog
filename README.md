@@ -1,22 +1,46 @@
-# PITCH
+# Private Blog
+##Python 3.6 Application
 ##Developer
-David Ngatia
+###David Ngatia
+##Description of the application
+This application allows writers to create and their blogs and other users can read and comment on them.
 
-## Description
-In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful?
-This application allows users to use that one minute wisely. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
-#### Link to deployed site
-http://Blog.herokuapp.com/
+##Behaviour driven development
+The application displays all posts on the home page in the order of the posted time
 
-## Table of content
-1. [Description](#description)
-2. [API endpoints](#endpoints)
-3. [Setup and installations](#setup-and-installations)
-4. [Deployment](#deployment)
-5. [Contributing](#contributing)
-6. [Bugs](#bugs)
-7. [Contact me](#support-and-contact-details)
-8. [Licensing](#license)
+One should receive an email when signing up,subscribing.
+
+For one to comment one has to be signed in
+
+When signed in one can create a blog
+
+##Project setup instructions
+You can install this app by cloning the repository from this link 
+cd Personalblog
+atom . for those using atom or code . for those using visual studio.
+Live link
+You can find the live site here 
+
+##Known Bugs
+There are no known bugs so far,everything is working.
+
+##Technologies Used.
+This project was generated with:
+CSS
+Bootstrap
+Python3.6
+flask microframework
+    - Python 3.6
+    -flaskframework
+    - HTML
+    - Bootstrap 4
+    - Heroku
+    - Postgresql
+    -SQLAlchemy
+##Support and contact details
+If any issues,questions,ideas and concerns are encountered,feel free to contact machngatia@gmail.com
+
+
 
 
 ## Setup and installations
@@ -29,12 +53,7 @@ http://Blog.herokuapp.com/
 5. 
 
 #### Technologies used
-    - Python 3.6
-    - HTML
-    - Bootstrap 4
-    - Heroku
-    - Postgresql
-    -SQLAlchemy
+    
 
 
 #### Clone the Repo and checkout into the project folder.
@@ -83,16 +102,6 @@ python3.6 manage.py makemigrations && python3.6 manage.py migrate
 ```bash
 ./start.sh
 ```
-Open [localhost:8000](http://127.0.0.1:5000/)
-
-
-## Contributing
-Please read this [comprehensive guide](https://opensource.guide/how-to-contribute/) on how to contribute. Pull requests are welcome :-)
-
-## Bugs
-#### Known bugs
- - none yet
-
 
 ## Support and contact details
 Contact [David Ngatia](machngatia@gmail.com) for further help/support
