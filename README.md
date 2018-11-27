@@ -1,35 +1,28 @@
-# Private Blog
-##Python 3.6 Application
+#Blog
+#Python 3.6 Application
 ##Developer
-###David Ngatia
+David Ngatia
 ##Description of the application
-This application allows writers to create and their blogs and other users can read and comment on them.
+    This application allows writers to create and update their blogs and other users can read and comment on them.
 
 ##Behaviour driven development
-The application displays all posts on the home page in the order of the posted time
+    The application displays all posts on the home page in the order of the posted time
 
-One should receive an email when signing up,subscribing.
+    One should receive an email when signing up,subscribing.
 
-For one to comment one has to be signed in
+    For one to comment one has to be signed in
 
-When signed in one can create a blog
+    When signed in one can create a blog
 
 ##Project setup instructions
-You can install this app by cloning the repository from this link 
-cd Personalblog
-atom . for those using atom or code . for those using visual studio.
-Live link
-You can find the live site here 
+    You can install this app by cloning the repository:git clone git@github.com:davidngatia/pitch.git 
+    cd blog/ atom . for those using atom or code . for those using visual studio.
 
 ##Known Bugs
-There are no known bugs so far,everything is working.
+    There are no known bugs so far,everything is working.
 
 ##Technologies Used.
 This project was generated with:
-CSS
-Bootstrap
-Python3.6
-flask microframework
     - Python 3.6
     -flaskframework
     - HTML
@@ -37,11 +30,6 @@ flask microframework
     - Heroku
     - Postgresql
     -SQLAlchemy
-##Support and contact details
-If any issues,questions,ideas and concerns are encountered,feel free to contact machngatia@gmail.com
-
-
-
 
 ## Setup and installations
 
