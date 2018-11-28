@@ -55,7 +55,7 @@ def pickupblog():
     '''
     View root page function that returns the index page and its data
     '''
-    form=blogForm()
+    form=BlogForm()
 
 
 
@@ -63,7 +63,7 @@ def pickupblog():
     if form.validate_on_submit():
         title = form.title.data
         blog=form.blog.data
-        new_blog=blog(title=title,blog=Blog,user=current_user)
+        new_blog=Blog(title=title,blog=blog,user=current_user)
         new_blog.save_blog()
         return redirect(url_for('main.pickup'))
 

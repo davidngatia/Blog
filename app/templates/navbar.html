@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="{{url_for('main.index')}}">Home</a></li>
-        <li class="active"><a href="{{url_for('main.newblog')}}">Create your blog</a></li>
+        <li class="active"><a href="{{url_for('main.pickupblog')}}">Create your Blog</a></li>
 
 
 
@@ -21,11 +21,11 @@
 
         {% if current_user.is_authenticated %}
         <li><a href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a></li>
-        <li><a href="{{url_for('auth.logout')}}"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
+        <li><a href="{{url_for('auth.logout')}}"><span class="glyphicon glyphicon-log-in"></span> LogOut</a></li>
         {% else %}
-        <li><a href="{{url_for('auth.login')}}"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+        <li><a href="{{url_for('auth.login')}}"><span class="glyphicon glyphicon-log-in"></span> LogIn</a></li>
          {%endif%}
-        <li><a href="{{url_for('auth.register')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="{{url_for('auth.register')}}"><span class="glyphicon glyphicon-user"></span> Register</a></li>
       </ul>
     </div>
   </div>
